@@ -2,6 +2,11 @@
 
 /*Para a página geral*/
 
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,10 +14,45 @@
 
 body {
     background-image: url(../imagens/imagem2.jpg);
-    background-position: 100%;
+    background-position: center center;
 }
 
 header {
+    font-family:"Tomorrow", sans-serif;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.784);
+    height: 157px;
+    margin: 20px;
+}
+
+header > h1 {
+    font-size: 3.4em;
+    margin: -12px;
+}
+
+header > p {
+    font-size: 1.6em;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(80, 77, 81);
+    padding: 11px;
+    margin: -4px;
+    display: inline-block;
+    border: 2px inset black;
+    box-shadow: 4px 4px 1pc rgba(0, 0, 0, 0.56);
+}
+
+nav > a {
+    font-size: 1.15em;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 24px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: rgb(172, 172, 173);
+    
 }
