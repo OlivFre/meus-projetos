@@ -2,10 +2,16 @@
 
 /*Para a página geral*/
 
-@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
-
+:root {
+    --cor0: #adb1bc84;
+    --cor1: #969CA8;
+    --cor2: #272F3C;
+    --cor3: #191C2B;
+}
 
 * {
     margin: 0px;
@@ -18,9 +24,11 @@ body {
 }
 
 header {
-    font-family:"Tomorrow", sans-serif;
+    font-family:"Iceland", sans-serif;
     text-align: center;
-    background-color: rgba(128, 128, 128, 0.784);
+    background-color: var(--cor0);
+    font-size: 1.9em;
+
     
 }
 
