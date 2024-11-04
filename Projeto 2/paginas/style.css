@@ -1,31 +1,26 @@
 @charset "UTF-8";
 
+. {
+    padding: 0px;
+    
+}
 
 
 
 
-
-body.grande {
-    background-image: url(../imagens/fundo\ grande_Prancheta\ 1.png);
+body{
+    background-image: url(../imagens/Sem\ título-1_Prancheta\ 1.svg);
     background-color: #F8E8D9;
-    background-size: 100%;
     background-repeat: no-repeat;
-    max-width: 100%;
+    background-size: cover;
+    
+
     
     
     
     
 }
 
-body.medio {
-    background-image: url(../imagens/fundo\ médio\ 1_Prancheta\ 1.png);
-    background-color: #F8E8D9;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    
-   
-
-}
 
 nav {
 }
