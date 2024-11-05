@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="fundo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcb4ac;
+      }
+
+      .cls-2 {
+        fill: url(#Nova_amostra_de_padrão_1);
+      }
+
+      .cls-3 {
+        fill: #ff8270;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+    <pattern id="Nova_amostra_de_padrão_1" data-name="Nova amostra de padrão 1" x="0" y="0" width="75.54" height="74.86" patternUnits="userSpaceOnUse" viewBox="0 0 75.54 74.86">
+      <g>
+        <rect class="cls-4" x="0" y="0" width="75.54" height="74.86"/>
+        <g>
+          <g>
+            <path class="cls-1" d="m37.99,25.24h0c-6.97-6.97-6.97-18.27,0-25.24h0s0,0,0,0c6.97,6.97,6.97,18.27,0,25.24h0Z"/>
+            <path class="cls-1" d="m37.99,74.86h0c-6.97-6.97-6.97-18.27,0-25.24h0s0,0,0,0c6.97,6.97,6.97,18.27,0,25.24h0Z"/>
+            <path class="cls-1" d="m0,37.42h0c6.97-6.97,18.27-6.97,25.24,0h0s0,0,0,0C18.27,44.39,6.97,44.39,0,37.42H0Z"/>
+            <path class="cls-1" d="m50.3,37.42h0c6.97-6.97,18.27-6.97,25.24,0h0s0,0,0,0c-6.97,6.97-18.27,6.97-25.24,0h0Z"/>
+            <g>
+              <g>
+                <path class="cls-1" d="m37.99,19.58h0c0,9.85-8,17.85-17.85,17.85h0c0-9.85,8-17.85,17.85-17.85Z"/>
+                <path class="cls-1" d="m38,37.42h0c9.86,0,17.85-7.99,17.85-17.85h0s0,0,0,0c-9.86,0-17.85,7.99-17.85,17.85h0Z"/>
+              </g>
+              <g>
+                <path class="cls-1" d="m20.14,37.42h0c9.85,0,17.85,8,17.85,17.85h0c-9.85,0-17.85-8-17.85-17.85h0Z"/>
+                <path class="cls-1" d="m38,37.42h0c9.86,0,17.85,7.99,17.85,17.85h0s0,0,0,0c-9.86,0-17.85-7.99-17.85-17.85h0Z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g id="_Repetição_radial_" data-name="&amp;lt;Repetição radial&amp;gt;">
+              <polygon class="cls-1" points="4.21 71.01 7.75 57.79 11.29 44.57 10.79 64.42 30.65 63.92 17.43 67.46 4.21 71.01"/>
+            </g>
+            <g id="_Repetição_radial_-2" data-name="&amp;lt;Repetição radial&amp;gt;">
+              <polygon class="cls-1" points="4.19 3.87 17.41 7.41 30.63 10.95 10.78 10.45 11.28 30.31 7.74 17.09 4.19 3.87"/>
+            </g>
+            <g id="_Repetição_radial_-3" data-name="&amp;lt;Repetição radial&amp;gt;">
+              <polygon class="cls-1" points="71.33 3.85 67.79 17.07 64.25 30.29 64.75 10.44 44.89 10.94 58.11 7.4 71.33 3.85"/>
+            </g>
+            <g id="_Repetição_radial_-4" data-name="&amp;lt;Repetição radial&amp;gt;">
+              <polygon class="cls-1" points="71.35 70.99 58.13 67.45 44.91 63.91 64.76 64.41 64.26 44.55 67.8 57.77 71.35 70.99"/>
+            </g>
+          </g>
+        </g>
+        <g>
+          <circle class="cls-1" cx="17.9" cy="17.42" r="1.97"/>
+          <circle class="cls-1" cx="14.87" cy="14.45" r="1.25"/>
+          <circle class="cls-1" cx="12.48" cy="12.09" r=".94"/>
+        </g>
+        <g>
+          <circle class="cls-1" cx="57.74" cy="17.42" r="1.97"/>
+          <circle class="cls-1" cx="60.77" cy="14.45" r="1.25"/>
+          <circle class="cls-1" cx="63.16" cy="12.09" r=".94"/>
+        </g>
+        <g>
+          <circle class="cls-1" cx="57.74" cy="57.03" r="1.97"/>
+          <circle class="cls-1" cx="60.77" cy="60.01" r="1.25"/>
+          <circle class="cls-1" cx="63.16" cy="62.36" r=".94"/>
+        </g>
+        <g>
+          <circle class="cls-1" cx="17.9" cy="57.03" r="1.97"/>
+          <circle class="cls-1" cx="14.87" cy="60.01" r="1.25"/>
+          <circle class="cls-1" cx="12.48" cy="62.36" r=".94"/>
+        </g>
+      </g>
+    </pattern>
+  </defs>
+  <rect class="cls-3" width="500" height="500"/>
+  <rect class="cls-2" width="500" height="500"/>
+</svg>
