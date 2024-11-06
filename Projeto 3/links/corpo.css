@@ -13,18 +13,36 @@ section{
     padding: 0px 20px 0px 20px;
 }
 
+
+.slide{
+    /**height: 93.4vh;**/
+    background-color: rgb(122, 237, 224);
+}
+
+
 #flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-direction: row;
+    align-content: flex-start;
+    min-block-size: 360px;
+    
 }
 
+
+    
 
 .texto{
     width: 42vw;
     align-content: center;
     text-align: justify;
     font-family: "Yomogi", cursive;
+    min-width: 420px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
     
 }
 
