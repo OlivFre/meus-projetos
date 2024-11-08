@@ -36,6 +36,8 @@ header{
     top: 0;
     left: 0;
     transition: .5s;
+    font-family: "Yomogi", cursive;
+    font-size: 1.7em;
 }
 
 header.rolagem{
@@ -75,7 +77,7 @@ a:hover{
 
 .banner{
     height: 100vh;
-    background-image: url(../imagens/fundo_Prancheta\ 1.svg);
+    background-image: url(../imagens/fundo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
