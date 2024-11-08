@@ -5,58 +5,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Sacramento&family=Yomogi&display=swap');
 
 
-:root{
-    --cor0: #faf1f7;
-    --cor1:
-}
+
 
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 header{
-    background-color: var(--cor0);
-   
-    }
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
 
-header > h1{
-    font-family: "Sacramento", serif;
-    font-size: 5em;
-    text-align: center;
-    padding: 20px 0px 8px 0px;
+header.rolagem{
+    background-color: white;
+    padding: 20px 1%;
+}
 
+header.rolagem a{
+    color: #4D5453;;
 }
 
 
 
-header > p{
-    font-family: "Yomogi", cursive;
-    font-size: 1.7em;
-    text-align: center;
-    padding: 0px 0px 15px 0px;
+nav > ul{
+    list-style-type: none;
+    
 }
 
-nav {
-    background-color: rgb(228, 223, 255);
-    font-family: "Yomogi", cursive;
-    font-size: 1.3em;
-    text-align: center;
-    padding: 10px 0px 10px 15px;
+nav > ul > li{
+    display: inline-block;
+    margin: 0 40px;
+    
 }
 
-a{
-    padding: 10px;
+nav > ul > li > a{
+    color: #4D5453;
     text-decoration: none;
-    border-radius: 5px;
-    color: rgb(54, 3, 109);
-    transition: 0.5s;
     
 }
 
 a:hover{
-
-    opacity: 0.7;
-    background-color: rgb(149, 147, 150);
+    
+    padding: 5px;
+    cursor: pointer;
+    transition: .8s;
 }
+
+.banner{
+    height: 100vh;
+    background-image: url(../imagens/fundo_Prancheta\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
