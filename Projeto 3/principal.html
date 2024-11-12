@@ -12,8 +12,6 @@
         <div class="container">
             <div class="flex1">
 
-                
-
                 <nav>
                     <ul>
                         <li><a href="#lançamentos">Lançamentos</a></li>
@@ -26,17 +24,59 @@
                     </ul>
                 </nav>
         </div>
-        </div>
+        
     </header>
 
 
-    <section id="lançamentos" class="banner">
-        <p>imagens</p>
+    <section id="lançamentos">
+        <div class="slider">
+            <div class="slides">
+
+                <!--radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--fim radio buttons-->
+
+                <!--slide images-->
+                <div class="slide first">
+                    <img src="imagens/suco-blueberry.jpg" alt="imagem 1">
+                </div>
+
+                <div class="slide">
+                    <img src="imagens/chá-slider.jpg" alt="imagem 2">
+                </div>
+
+                <div class="slide">
+                    <img src="imagens/café-slider.jpg" alt="imagem 3">
+                </div>
+
+                <div class="slide">
+                    <img src="imagens/smoothie-slider.jpg" alt="imagem 4">
+                </div>
+                <!--fim slide images-->
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
     </section>
 
 
     <script src="menu.js"></script>
-
+    <script src="slider"></script>
 
 
                             <!--   Sucos   -->

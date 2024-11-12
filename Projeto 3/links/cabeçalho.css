@@ -15,18 +15,20 @@
 }
 
 html{
-    height: 500vh;
+    height: 200vh;
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1300px;
+    max-height: 20px;
     margin: auto;
 }
 
 .flex1{
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: space-evenly;
+    
 }
 
 header{
@@ -37,7 +39,7 @@ header{
     left: 0;
     transition: .5s;
     font-family: "Yomogi", cursive;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 header.rolagem{
@@ -70,7 +72,10 @@ nav > ul > li > a{
 
 a:hover{
     
-    padding: 5px;
+    background-color: #637454;
+    color: bisque;
+    border-radius: 10px;
+    padding: 3px 7px 3px 7px;
     cursor: pointer;
     transition: .8s;
 }
