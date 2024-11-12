@@ -39,6 +39,7 @@ section{
 .slide{
     width: 25%;
     position: relative;
+    transition: 2s;
 }
 
 .slide img{
@@ -82,7 +83,7 @@ section{
     margin-left: -50%;
 }
 
-#radio2:checked ~.first{
+#radio4:checked ~.first{
     margin-left: -75%;
 }
 
