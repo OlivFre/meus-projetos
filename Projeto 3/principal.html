@@ -4,232 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop Coffe</title>
-    <link rel="stylesheet" href="../Projeto 3/links/cabeçalho.css">
-    <link rel="stylesheet" href="../Projeto 3/links/corpo.css">
+    <link rel="stylesheet" href="../Projeto 3/links/style.css">
 </head>
 <body>
-    <header id="header">
-        <div class="container">
-            <div class="flex1">
 
-                <nav>
-                    <ul>
-                        <li><a href="#lançamentos">Lançamentos</a></li>
-                        <li><a href="#sucos">Sucos</a></li>
-                        <li><a href="#chas">Chás</a></li>
-                        <li><a href="#cafes">Cafés</a></li>
-                        <li><a href="#smoothies">Smoothies</a></li>
-                        <li><a href="#cardapio">Cardápio</a></li>
-                        <li><a href="#localizaçao">Localização</a></li>
-                    </ul>
-                </nav>
+    <header>
+        <div class="flex">
+            <nav>
+                <ul>
+                    <li><a href="#lançamentos">Lançamentos</a></li>
+                    <li><a href="#sucos">Sucos</a></li>
+                    <li><a href="#chas">Chás</a></li>
+                    <li><a href="#cafes">Cafés</a></li>
+                    <li><a href="#smoothies">Smoothies</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#localizaçao">Localização</a></li>
+                </ul>
+            </nav>
         </div>
-        
     </header>
 
-
     <section id="lançamentos">
-        <div class="slider">
-            <div class="slides">
-
-                <!--radio buttons-->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <!--fim radio buttons-->
-
-                <!--slide images-->
-                <div class="slide first">
-                    <img src="imagens/suco-blueberry.jpg" alt="imagem 1">
-                </div>
-
-                <div class="slide">
-                    <img src="imagens/chá-slider.jpg" alt="imagem 2">
-                </div>
-
-                <div class="slide">
-                    <img src="imagens/café-slider.jpg" alt="imagem 3">
-                </div>
-
-                <div class="slide">
-                    <img src="imagens/smoothie-slider.jpg" alt="imagem 4">
-                </div>
-                <!--fim slide images-->
-
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                </div>
-            </div>
-
-            <div class="manual-navigation">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-                <label for="radio4" class="manual-btn"></label>
-            </div>
-        </div>
-    </section>
-
-
-    
-
-                            <!--   Sucos   -->
-
-    <section id="sucos" >
-        <div>
-            <div class="flex" >
-                <div class="texto">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium debitis porro et cupiditate aperiam sapiente. Vero voluptatum quidem ab repellat, quia libero beatae temporibus sapiente, est magnam inventore quam dicta!
-                    </p>
-                </div>
-                
-                <div>
-                    <img src="../Projeto 3/imagens/suco-framboesa.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="flex" class="reverse">
-                <div>
-                    <img src="../Projeto 3/imagens/suco-toranja.jpg" alt="">
-                </div>
-                
-                <div class="texto">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quae itaque ratione in quo illum laborum quisquam voluptas sequi accusantium! Dolorem autem recusandae harum, delectus quis libero voluptate aliquam pariatur.
-                    </p>
-                </div>
-                
-            </div>
+        <div class="flex-lançamentos">
 
         </div>
     </section>
 
-                            <!--   Chá Gelado   -->
+    <section id="sucos">
+        <div class="flex-sucos">
+            <div class="text">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur molestias corrupti error voluptate id autem maiores laudantium ratione accusamus, eligendi aliquam temporibus obcaecati, mollitia quibusdam quos voluptatibus qui porro illo.
+                </p>
+            </div>
+
+            <div>
+                <img src="imagens/suco-framboesa.jpg" alt="">
+            </div>
+        </div>
+    </section>
 
     <section id="chas">
-        <div>
-            <div class="flex">
-                <div class="texto">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat quibusdam illum sint autem sed, obcaecati nemo velit quod inventore maiores, et exercitationem quis culpa, voluptatem tempore quo earum error quidem?
-                    </p>
-                </div>
 
-                <div>
-                    <img src="../Projeto 3/imagens/chá-quente.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="flex">
-                <div>
-                    <img src="../Projeto 3/imagens/chá-gelado.jpg" alt="">
-                </div>
-
-                <div class="texto">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem voluptas quam distinctio possimus, nisi numquam placeat consequatur eos cumque fugiat voluptatum vitae soluta eligendi et ipsum at ea ratione.
-                    </p>
-                </div>
-            </div>
-        </div>
     </section>
-    
-                            <!--   Cafés   -->
 
     <section id="cafes">
-        <div>
-            <div class="flex">
-                <div class="texto">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, fugiat quam! Facilis mollitia natus, culpa quod ratione architecto doloribus dolorem, numquam commodi et dignissimos obcaecati molestiae, alias repudiandae pariatur ea?
-                    </p>
-                </div>
-                    
-                <div>
-                    <img src="imagens/capuccino.jpg" alt="">
-                </div>
-            </div>
 
-            <div class="flex">
-                <div>
-                    <img src="imagens/café-gelado.jpg" alt="">
-                </div>
-
-                <div class="texto">
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse suscipit saepe obcaecati blanditiis ipsa, officia distinctio nam nostrum eligendi maiores, debitis, repellendus deleniti ullam quas itaque incidunt amet aperiam voluptatum.
-                    </p>
-                </div>
-            </div>
-        </div>
     </section>
-
-                            <!--   Smoothies   -->
 
     <section id="smoothies">
-        <div>
-            <div class="flex">
-                <div class="texto">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsam doloribus quidem ad, deserunt libero maxime distinctio tempore quam nulla odio provident. Eum magnam rerum ducimus quam amet, repudiandae laudantium!
-                    </p>
-                </div>
 
-                <div>
-                    <img src="imagens/smoo-mirtilo.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="flex">
-                <div>
-                    <img src="imagens/smoo-macha,banana.jpg" alt="">
-                </div> 
-
-                <div class="texto">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda error ea maxime culpa? Molestiae similique exercitationem voluptatem officia veritatis voluptas officiis aspernatur pariatur earum magnam, explicabo minus sed recusandae excepturi.
-                    </p>
-                </div>
-            </div>
-        </div>
     </section>
+    <section id="menu">
 
-                            <!--   Cardápio   -->
-
-    <section id="cardapio">
-        
     </section>
+    <section id="localizaçao">
 
-                            <!--   Localização   -->
-
-    <section>
-        <div>
-            <div>
-                <div>
-
-                </div>
-
-                <div>
-
-                </div>
-            </div>
-        </div>
     </section>
-
-
-    <footer>
-        <h3>Direitos</h3>
-        <p>Site desenvolvido por Amanda Oliveira</p>
-    </footer>
-
-
-    <script src="menu.js"></script>
-    <script src="slider"></script>
-
 </body>
 </html>

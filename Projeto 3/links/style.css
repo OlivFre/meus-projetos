@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Cutive+Mono&family=Yomogi&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*---------------------CABEÇALHO---------------------*/
+
+header{
+    width: 100%;
+    padding: 15px 0px;
+    position: fixed;
+    
+    background-color: beige;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li{
+    display: inline-block;
+    margin: 0 50px;
+}
+
+nav ul li a{
+    font-family: "Yomogi", cursive;
+    font-size: 1.6em;
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    background-color: rgb(255, 162, 128);
+    color: rgb(255, 7, 61);
+    border-radius: 5px;
+    padding: 8px 8px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/*---------------------FIM DE CABEÇALHO---------------------*/
+
+/*---------------------LANÇAMENTOS---------------------*/
+
+.flex-lançamentos{
+    height: 95vh;
+}
+
+/*---------------------FIM DE LANÇAMENTOS---------------------*/
+
+
+/*---------------------SUCOS---------------------*/
+
+.flex-sucos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text{
+    font-family: "Yomogi", cursive;
+    font-size: 1.2em;
+    width: 350px;
+}
+
+img{
+    width: 280px;
+    height: 450px;
+}
+
+/*---------------------FIM DE SUCOS---------------------*/
