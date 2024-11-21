@@ -57,7 +57,8 @@ a:hover{
 /*---------------------LANÇAMENTOS---------------------*/
 
 .flex-lançamentos{
-    height: 95vh;
+    height: 100vh;
+    background-color: black;
 }
 
 /*---------------------FIM DE LANÇAMENTOS---------------------*/
@@ -71,17 +72,46 @@ a:hover{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+
+    height: 90.3vh;
+    padding: 80px 0px;
+}
+
+.geral-sucos{
+    
 }
 
 .text{
     font-family: "Yomogi", cursive;
     font-size: 1.2em;
-    width: 350px;
+    width: 42vw;
+    align-content: center;
+    text-align: justify;
+    min-width: 420px;
+    padding: 30px 35px 30px 10px;
 }
 
 img{
     width: 280px;
-    height: 450px;
+    height: 500px;
+    min-width: 310px;
+   
 }
 
+
 /*---------------------FIM DE SUCOS---------------------*/
+
+/*---------------------CHÁS---------------------*/
+
+.flex-chas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90.3vh;
+    padding: 80px 0px;
+}
+
+/*---------------------FIM DE CHÁS---------------------*/
