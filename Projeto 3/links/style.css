@@ -115,3 +115,44 @@ img{
 }
 
 /*---------------------FIM DE CHÁS---------------------*/
+
+/*---------------------CAFÉS---------------------*/
+
+.flex-cafes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90.3vh;
+    padding: 80px 0px;
+}
+
+/*---------------------FIM DE CAFÉS---------------------*/
+
+/*---------------------SMOOTHIES---------------------*/
+
+.flex-smoothies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90.3vh;
+    padding: 80px 0px;
+}
+
+/*---------------------FIM DE SMOOTHIES---------------------*/
+
+/*---------------------MENU---------------------*/
+
+
+/*---------------------FIM DE MENU---------------------*/
+
+
+/*---------------------LOCALIZAÇÃO---------------------*/
+
+
+/*---------------------FIM DE LOCALIZAÇÃO---------------------*/
