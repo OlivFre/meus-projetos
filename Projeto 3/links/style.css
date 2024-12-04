@@ -8,6 +8,10 @@
     margin: 0px;
 }
 
+html,body{
+    height: 100%;
+}
+
 /*---------------------CABEÇALHO---------------------*/
 
 header{
@@ -64,9 +68,9 @@ a:hover{
 /*---------------------FIM DE LANÇAMENTOS---------------------*/
 
 
-/*---------------------SUCOS---------------------*/
+/*---------------------FLEX---------------------*/
 
-.flex-sucos{
+.flex-sucos,.flex-chas,.flex-cafes,.flex-smoothies {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,9 +81,7 @@ a:hover{
     padding: 80px 0px;
 }
 
-.geral-sucos{
-    
-}
+/*---------------------FIM DE FLEX---------------------*/
 
 .text{
     font-family: "Yomogi", cursive;
@@ -99,50 +101,30 @@ img{
 }
 
 
+/*---------------------SUCOS---------------------*/
+
+.sucos{
+    background-image: url(../imagens/fundo-toranja_Prancheta\ 1_Prancheta\ 1.svg);
+}
+
 /*---------------------FIM DE SUCOS---------------------*/
+
+
 
 /*---------------------CHÁS---------------------*/
 
-.flex-chas{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
 
-    height: 90.3vh;
-    padding: 80px 0px;
-}
 
 /*---------------------FIM DE CHÁS---------------------*/
 
 /*---------------------CAFÉS---------------------*/
 
-.flex-cafes{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-
-    height: 90.3vh;
-    padding: 80px 0px;
-}
 
 /*---------------------FIM DE CAFÉS---------------------*/
 
 /*---------------------SMOOTHIES---------------------*/
 
-.flex-smoothies{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
 
-    height: 90.3vh;
-    padding: 80px 0px;
-}
 
 /*---------------------FIM DE SMOOTHIES---------------------*/
 
